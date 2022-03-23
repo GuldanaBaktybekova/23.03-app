@@ -6,12 +6,43 @@
   border-radius: .5rem;
 }
 .Alert.danger {
-  background-color: rgb(237, 218, 218);
-  border-color: rgb(213, 183, 183);
-  color: rgb(89, 67, 67);
+  color: #842029;
+  background-color: #f8d7da;
+  border-color: #f5c2c7;
 }
 .Alert.success {
-  background-color: rgb(218, 237, 222);
-  border-color: rgb(183, 213, 187);
-  color: rgb(67, 89, 72);
+  color: #0f5132;
+  background-color: #d1e7dd;
+  border-color: #badbcc;
+} 
+.Alert.primary {
+  color: #084298;
+  background-color: #cfe2ff;
+  border-color: #b6d4fe;
+} 
+
+.Alert.secondary {
+  color: #41464b;
+  background-color: #e2e3e5;
+  border-color: #d3d6d8;
+} 
+.Alert.warning {
+  color: #664d03;
+  background-color: #fff3cd;
+  border-color: #ffecb5;
+} 
+.Alert.info {
+  color: #055160;
+  background-color: #cff4fc;
+  border-color: #b6effb;
+} 
+.Alert.light {
+  color: #055160;
+  background-color: #cff4fc;
+  border-color: #b6effb;
+} 
+.Alert.dark {
+  color: #141619;
+  background-color: #d3d3d4;
+  border-color: #bcbebf;
 } 
