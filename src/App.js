@@ -6,6 +6,8 @@ import Alert from "./components/Alert/Alert";
 
 import Button from "./components/Button/Button";
 
+import Tooltip from "./components/Tooltip/Tooltip";
+
 
 function App() {
   return (
@@ -21,6 +23,12 @@ function App() {
       <Alert light>A simple light alert—check it out!</Alert>
       <Alert dark>A simple dark alert—check it out!</Alert>
 
+      
+      <br/>
+      <br/>
+      <br/>
+      
+
       <Button primary>Primary</Button>
       <Button secondary>Secondary</Button>
       <Button success>Success</Button>
@@ -30,6 +38,23 @@ function App() {
       <Button light>Light</Button>
       <Button dark>Dark</Button>
       <Button link>Link</Button>
+
+      <br/>
+      <br/>
+      <br/>
+      
+
+
+
+
+
+      <Tooltip description="Tooltip on top" top>Tooltip on top</Tooltip>
+      
+      <Tooltip description="Tooltip on right" right>Tooltip on right</Tooltip>
+      
+      <Tooltip description="Tooltip on bottom" bottom>Tooltip on bottom</Tooltip>
+      
+      <Tooltip description="Tooltip on left" left>Tooltip on left</Tooltip>
 
       {/* <Paragraph size="14px" color="purple">This is sample paragraph</Paragraph>
       
