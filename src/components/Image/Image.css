@@ -6,7 +6,9 @@
 }
 .Image.left {
   float: left;
+  margin-left: 0;
 }
 .Image .right {
   float: right;
+  margin-right: 0;
 }
