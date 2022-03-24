@@ -48,13 +48,13 @@ function App() {
 
 
 
-      <Tooltip description="Tooltip on top" top>Tooltip on top</Tooltip>
+      <Tooltip> <span top>"Tooltip on top</span><button>Tooltip on top</button> </Tooltip>
       
-      <Tooltip description="Tooltip on right" right>Tooltip on right</Tooltip>
+      <Tooltip><button>Tooltip on right</button><span right>Tooltip on right</span></Tooltip>
       
-      <Tooltip description="Tooltip on bottom" bottom>Tooltip on bottom</Tooltip>
+      <Tooltip><span bottom>Tooltip on bottom</span><button>Tooltip on bottom</button></Tooltip>
       
-      <Tooltip description="Tooltip on left" left>Tooltip on left</Tooltip>
+      <Tooltip><span left>Tooltip on left</span><button>Tooltip on left</button></Tooltip>
 
       {/* <Paragraph size="14px" color="purple">This is sample paragraph</Paragraph>
       
