@@ -10,7 +10,7 @@ function Alert(props) {
   }
   if (props.success) {
     className.push('success');
-  }
+  } 
   if (props.danger) {
     className.push('danger');
   }

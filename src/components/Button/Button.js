@@ -11,7 +11,7 @@ function Button(props) {
   if (props.success) {
     className.push('success');
   }
-  if (props.danger) {
+  if (props.danger) { 
     className.push('danger');
   }
   if (props.warning) {
